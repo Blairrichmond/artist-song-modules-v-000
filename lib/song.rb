@@ -18,7 +18,7 @@ class Song
     @artist = artist
   end
 
-  def self.reset_all
+  #def self.reset_all
     @@songs.clear
   end
 
@@ -26,7 +26,7 @@ class Song
     name.downcase.gsub(' ', '-')
   end
 
-  def self.count
+  #def self.count
     self.all.count
   end
 
