@@ -3,5 +3,8 @@ module Memorable
     all.count
   end
 
+  def self.reset_all
+    @@songs.clear
+  end
 
 end
